@@ -13,3 +13,7 @@ Router.route('/agent', function() {
 Router.route('/register', function() {
 	this.render('register');
 });
+
+Router.route('/forgot', function() {
+	this.render('forgot');
+});
