@@ -10,13 +10,13 @@
 
 header {
     font-family: "Olivier";
-    text-shadow: 2px 2px #202020;
+    text-shadow: 0px 0px #202020;
     font-size: 200%;
 }
 
 h1 {
 	font-family: "Olivier";
-	text-shadow: 2px 2px #202020;
+	text-shadow: 0px 0px #202020;
 	font-size: 50px;
 	color: #000000;
 }
