@@ -17,3 +17,7 @@ Router.route('/register', function() {
 Router.route('/forgot', function() {
 	this.render('forgot');
 });
+
+Router.route('/back', function() {
+	this.render('login');
+});
