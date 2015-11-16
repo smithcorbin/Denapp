@@ -21,3 +21,7 @@ Router.route('/forgot', function() {
 Router.route('/back', function() {
 	this.render('login');
 });
+
+Router.route('/home', function() {
+	this.render('open');
+});
