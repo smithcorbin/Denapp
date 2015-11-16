@@ -1,5 +1,5 @@
 Template.register.events({
-	"click #back": function(event, template) {
+	"click #Back": function(event, template) {
 		Router.go("login");
 	}
 });
