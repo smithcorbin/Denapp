@@ -3,7 +3,7 @@ Template.register.events({
 		Router.go("login");
 	}
 
-	"click #register-form": function(event, template) {
+	"click #registerform": function(event, template) {
 		Router.go("signup");
 	}
 });
