@@ -1,6 +1,6 @@
 Template.open.events({
 	"click #Customer": function(event, template) {
-		Router.go("customer");
+		Router.go("maps");
 	},
 
 	"click #Agent": function(event, template) {

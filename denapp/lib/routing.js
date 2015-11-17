@@ -2,7 +2,7 @@ Router.route('/', function() {
 	this.render('open');
 });
 
-Router.route('/customer', function() {
+Router.route('/maps', function() {
 	this.render('maps');
 });
 
