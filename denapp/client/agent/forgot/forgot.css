@@ -1,6 +1,6 @@
 .forgotContainer {
 	text-align: center;
-	color: #ffffff;
+	color: #000000;
 }
 
 .forgotContainer h1{
@@ -8,16 +8,16 @@
 }
 
 .forgotContainer h2{
-	margin-top: 60px;
+	margin-top: 45px;
 }
 
 .forgotContainer button{
 	font-family: OpenSans;
 	color: #fff;
 	font-size: 15px;
-	background: transparent;
+	background: opaque;
 	padding: 10px 20px 10px 20px;
-	border: solid white 2px;
+	border: solid black 2px;
 	position: relative;
 	font-weight:bolder;
 	margin-right: 10px;
