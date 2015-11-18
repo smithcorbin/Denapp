@@ -1,0 +1,32 @@
+.forgotContainer {
+	text-align: center;
+	color: #ffffff;
+}
+
+.forgotContainer h1{
+	margin-top: 40px;
+}
+
+.forgotContainer h2{
+	margin-top: 60px;
+}
+
+.forgotContainer button{
+	font-family: OpenSans;
+	color: #fff;
+	font-size: 15px;
+	background: transparent;
+	padding: 10px 20px 10px 20px;
+	border: solid white 2px;
+	position: relative;
+	font-weight:bolder;
+	margin-right: 10px;
+	margin-left: 10px;
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+}
+
+.forgotContainer .notif{
+	visibility: hidden;
+	color: yellow;
+}
