@@ -7,13 +7,9 @@
 	margin-top: 40px;
 }
 
-.forgotContainer h2{
-	margin-top: 45px;
-}
-
 .forgotContainer button{
 	font-family: OpenSans;
-	color: #fff;
+	color: #ffffff;
 	font-size: 15px;
 	background: opaque;
 	padding: 10px 20px 10px 20px;
