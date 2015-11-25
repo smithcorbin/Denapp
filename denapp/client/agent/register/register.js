@@ -46,7 +46,7 @@ Template.register.rendered = function() {
 	    $('#register-confirm-password').removeClass("invalid").addClass("valid");
 	    $(this).removeClass("invalid").addClass("valid");
 	}else{
-	    $('#register-confirm-password;).removeClass("valid").addClass("invalid");
+	    $('#register-confirm-password').removeClass("valid").addClass("invalid");
 	    $(this).removeClass("valid").addClass("invalid");
 	    if(input.length > 0){
 		$('#notif').html("Passwords Do Not Match");
