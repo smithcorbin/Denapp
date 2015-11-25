@@ -16,9 +16,7 @@ Template.register.rendered = function() {
 
     $('#register-email').on('input', function(){
 	var input=$(this).val();
-	var re = /^(([^<>()[]\.,;:s@"]+(.[^<>()[]\.,;:s@"]+)*)|(
-	".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA
-	-Z-0-9]+.)+[a-zA-Z]{2,}))$/igm;
+	var re = /^(([^<>()[]\.,;:s@"]+(.[^<>()[]\.,;:s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/igm;
 	var Notused = Meteor.users.find({"profile.oh": input }).count() == 0;
 	oh = re.test(input);
 	eFlag = oh && Notused;
