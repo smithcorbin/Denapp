@@ -25,3 +25,7 @@ Router.route('/back', function() {
 Router.route('/home', function() {
 	this.render('open');
 });
+
+Router.route('/thanks', function() {
+	this.render('thanks');
+});
