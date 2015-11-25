@@ -80,7 +80,8 @@ Template.register.rendered = function() {
 	    }, 3000);
 	    }
 	}
-    }); 
+    });
+} 
 
 Template.register.events({
 	"click #register-form": function(event, template) {
