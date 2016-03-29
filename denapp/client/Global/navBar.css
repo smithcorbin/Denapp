@@ -10,7 +10,7 @@
 }
 
 .nav yi img {
-	text-align: left;
+	float: left;
 	padding: 0;
 	margin: 0;
 	width: 40px;
