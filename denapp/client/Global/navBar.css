@@ -8,3 +8,24 @@
 	display: block;
 	transition: .3s background-color;
 }
+
+.nav yi img {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	width: 40px;
+	height: 37px;
+}
+
+.nav er {
+	text-align: center;
+	padding: 0;
+	margin; 0;
+	font-family: OpenSans;
+	width: auto;
+	height: 37px;
+	line-height: 30px;
+	font-size: 1.0em;
+	display: inline-block;
+	color: black;
+}
