@@ -18,7 +18,7 @@
 }
 
 .nav er {
-	text-align: center;
+	float: center;
 	font-family: Olivier;
 	width: auto;
 	height: 37px;
