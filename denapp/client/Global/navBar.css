@@ -1,0 +1,10 @@
+.nav {
+	margin-top: 25px;
+	background-color: transparent;
+}
+
+.nav a {
+	color: black;
+	display: block;
+	transition: .3s background-color;
+}
