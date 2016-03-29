@@ -12,7 +12,7 @@
 .nav yi img {
 	float: left;
 	padding: 100px;
-	margin: 100;
+	margin: 0;
 	width: 40px;
 	height: 37px;
 }
@@ -24,6 +24,5 @@
 	height: 37px;
 	line-height: 30px;
 	font-size: 1.0em;
-	display: inline-block;
 	color: black;
 }
