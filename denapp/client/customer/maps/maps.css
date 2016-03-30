@@ -1,4 +1,32 @@
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
 
+.home-container {
+	height: 100%;
+	position: relative;
+}
+
+.main-content {
+	display: table;
+	vertical-align: middle;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.chaffle {
+	background: none;
+	background-color: transparent;
+	color: #000;
+	float: left
+}
 
 .nav > si > a:hover, .nav > si > a:focus {
 	text-decoration: none;
