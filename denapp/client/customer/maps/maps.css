@@ -65,6 +65,16 @@ canvas {
 	width: 250px;
 }
 
+#page-content-wrapper {
+	width: 100%;
+	padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+	position: absolute;
+	margin-right: -250px;
+}
+
 .sidebar-nav {
 	position: absolute;
 	top: 0;
@@ -122,5 +132,12 @@ canvas {
 	}
 	#wrapper.toggled #sidebar-wrapper {
 		width: 0;
+	}
+	#page-content-wrapper {
+		padding: 20px;
+	}
+	#wrapper.toggled #page-content-wrapper {
+		position: relative;
+		margin-right: 0;
 	}
 }
