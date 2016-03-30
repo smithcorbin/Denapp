@@ -1,13 +1,10 @@
+
+
 .nav > si > a:hover, .nav > si > a:focus {
 	text-decoration: none;
 	background-color: transparent;
 	color: #000;
 }
-
-.nav {
-	padding-left: 3em;
-}
-
 
 #wrapper {
 	padding-left: 0;
